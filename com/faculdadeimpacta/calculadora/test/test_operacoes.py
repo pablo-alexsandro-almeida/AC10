@@ -1,10 +1,7 @@
-from unittest import TestCase
-from com.faculdadeimpacta.calculadora.operacoes import Operacoes
+"""Arquivo com os testes de operacoes"""
 
-class TestOperacoes(TestCase):
+from com.faculdadeimpacta.calculadora.operacoes import soma
 
-	def setUp(self):
-		self.operacoes = Operacoes()
-	
-	def test_soma(self):
-		self.assertEqual(self.operacoes.soma([1, 5]), 6, 'Deveria ser 6')
+def test_soma():
+    """Teste da operacao soma"""
+    assert soma(1, 2) == 3, 'Deveria ser 3'

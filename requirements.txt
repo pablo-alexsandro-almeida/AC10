@@ -1,5 +1,4 @@
 pytest
 pytest-cov
-pylint-runner
 flask
-gunicorn
+flask-cors

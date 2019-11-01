@@ -1,1 +1,1 @@
-web gunicorn --pythonpath com/faculdadeimpacta/calculadora app_web_start:app
+web: com/faculdadeimpacta/calculadora/app_web_start.py
